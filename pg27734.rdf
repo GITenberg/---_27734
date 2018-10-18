@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/27734">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N851bf658973e4b1e9a5ffe5c0bf65787">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PL</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nda21c5570c804d2ca72d88f5c92a901a">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-07</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.html.gen">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T05:33:04.787824</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292636</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639994</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:42.165849</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nded5ed95a9874fa2a0d4e8d241c228e5">
+          <rdf:Description rdf:nodeID="Nad0cebafb44a487ca52e103eb492cbd1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:41.171890</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295498</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1fc0410e22dc40a98b2cc4929c43f5eb">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
@@ -21,102 +47,143 @@
         <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/32292">
-        <pgterms:alias>鴛湖煙水散人</pgterms:alias>
-        <pgterms:alias>鸳湖烟水散人</pgterms:alias>
-        <pgterms:name>Yuanhuyanshuisanren, 17th/18th cent.</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:alternative>Hepu Zhu</dcterms:alternative>
-    <dcterms:license rdf:resource="license"/>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.kindle.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc86cd07911f54dfd8fa91f1ff0760584">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N55f1e9c55f044299bbf773e78a383095">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T05:33:13.025589</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315372</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639988</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:42.895833</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:alternative>Hepu Zhu</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:42.967830</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N68fd66ed26c742319c525ba60ae61544">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10529</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>合浦珠</dcterms:title>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nd6025a1edfe94d29b45126c113cb2462">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="Na4eab346c461462a9312c56aeb4982da">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27734/27734-0.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159648</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:41.442863</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd9a6c457c2804497b8abe73587fd9431">
+          <rdf:Description rdf:nodeID="N46df61ba28bf425db2b84e07cc2b5f40">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141243</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/32292">
+        <pgterms:alias>Yanshuisanren</pgterms:alias>
+        <pgterms:alias>鸳湖烟水散人</pgterms:alias>
+        <pgterms:alias>Hsü, Chen</pgterms:alias>
+        <pgterms:alias>Yuan-hu-yen-shui-san-jen</pgterms:alias>
+        <pgterms:alias>Zuiliyanshuisanren</pgterms:alias>
+        <pgterms:alias>Yüan-hu-yen-shui-san-jen</pgterms:alias>
+        <pgterms:alias>鴛湖煙水散人</pgterms:alias>
+        <pgterms:alias>Hsu, Chen</pgterms:alias>
+        <pgterms:alias>Guwuyanshuisanren</pgterms:alias>
+        <pgterms:alias>Tsui-li-yen-shui-san-jen</pgterms:alias>
+        <pgterms:name>Yuanhuyanshuisanren, active 17th century-18th century</pgterms:name>
+        <pgterms:alias>Xu, Qiutao</pgterms:alias>
+        <pgterms:alias>Xu, Zhen</pgterms:alias>
+        <pgterms:alias>Ku-wu-yen-shui-san-jen</pgterms:alias>
+        <pgterms:alias>Nanhuyanshuisanren</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27734/27734-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285066</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6ba105440e2841f59420c25c23b608d2">
+          <rdf:Description rdf:nodeID="N192281aba6284c03b040f6daf6427ae0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-07T10:37:00</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N18eedb5bb1ee4a318e585bafbcf70ae3">
+        <rdf:value>Chinese fiction -- Qing dynasty, 1644-1912</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295498</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:41.113864</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd3e7ecc552364d7ea89c15497806a7f7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/27734/27734-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9215dd7bbb0140a8bd7c338f953eda21">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141243</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-07T10:37:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na512973da6444d2ba37619f8ea60b396">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-07T10:37:02</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</pgterms:downloads>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N7627b596685c4f7e8e1bbf558547410c">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">zh</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/27734/27734-0.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f51217484784ca5acf108435ec72716">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285066</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-01-07T10:37:00</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T01:52:41.332890</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb2eab965e2b14de2bbaea33fa46485ba">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PL</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>合浦珠</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/27734.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159646</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndaed1e2e737e46f698cc55d40754338b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N175975a1a9134ee29a6a0d6d019a3d8a">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164652</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T05:33:05.342277</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/27734"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7a8234a408354b429baaa3d81a575e69">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Chinese fiction -- Qing dynasty, 1644-1912</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
